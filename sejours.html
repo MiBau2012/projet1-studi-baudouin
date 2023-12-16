@@ -5,16 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Séjours</title>
     <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
+    <nav class="navbar sticky-top navbar-expand-lg bg-info">
+        <div class="container">
+            <div class="navbar-brand">The English Club</div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item pe-5">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pe-5" href="activites.html">Activités</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pe-5" href="inscription.html">Inscription</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="sejours" href="#">Séjours</a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     
+    <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider:'>'">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html" class="text-info">Accueil</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Séjours</li>
+        </ol>
+    </nav>
+<!--Un exemple d'évènement avec deux photos-->
 
+<div class="container">
+    <h2 class="text-center">Organisation d'un séjour à Washington DC avec les élèves de terminale
+         de spécialité Anglais Monde Contemporain en novembre 2023</h2>
+</div> 
+<hr class="m-3 invisible">
 
+    <div class="row text-center">
+    <div class="col-md-6">
 
-
-
+        <figure>
+            <img src="assets/images/wash1.webp" alt="" class="img-fluid rounded" width="400px">
+        <figcaption class="figure-caption">Devant la Maison Blanche</figcaption>
+    </figure>
+</div>
+<div class="col-md-6">
+    <figure>
+        <img src="assets/images/wash2.webp" alt="" class="img-fluid rounded" width="400px">
+        <figcaption class="figure-caption ">Devant le National Museum of African Amercican History and Culture</figcaption>
+    </figure>
     
+    </div>
+
+    </div>
     <script src="assets/bootstrap.bundle.min.js"></script>
 </body>
 </html>

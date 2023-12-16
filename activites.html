@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The English Club</title>
+    <title>Activités</title>
     <link rel="stylesheet" href="assets/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <!--la barre de navigation-->
     <nav class="navbar sticky-top navbar-expand-lg bg-info">
         <div class="container">
             <div class="navbar-brand">The English Club</div>
@@ -19,13 +19,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link pe-5 active" aria-current="page" href="#">Accueil</a>
+                        <a class="nav-link pe-5" href="index.html">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link pe-5" href="activites.html">Activités</a>
+                        <a class="nav-link pe-5 active" aria-current="page" href="#">Activités</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link pe-5" href="inscription.html">Inscription</a>
+                        <a class="nav-link pe-5"  href="inscription.html">Inscription</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link pe-5" href="sejours.html">Séjours</a>
@@ -34,24 +34,38 @@
             </div>
         </div>
     </nav>
-    <!--Fin de la barre de navigation-->
+   
+<!--Début du breadcrumb-->
+    <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider:'>'"> 
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html" class="text-info">Accueil</a></li>
+            <li class="breadcrumb-item active" aria-current="page" classe="text-light">Activités</li>
+        </ol>
+    </nav>
+<!--Fin du breadcrumb-->
 
-    <h2 class="text-center my-5">Welcome to the English Club!</h2>
-    <p class="mx-5">Tous les élèves de la cité scolaire peuvent participer au Club le vendredi de 12h30 à 13h30 en salle L015.</p>
-    <br>
-    <p class="mx-5">Vous pourrez ainsi travailler votre oral et améliorer votre niveau d'anglais. The English Club est là pour vous aider et
-         vous faire progresser dans vos compétences orales et écrites dans la bonne humeur!</p>
-    <br>
-    <p class="mx-5">Ce club est animé et encadré par des professeurs d'anglais collège et lycée, ainsi que Marina, l'assistante américaine.</p>
-   <br>
-    <p class="mx-5">Pour participer, il suffit de s'inscrire auprès de votre professeur d'anglais ou de compléter le formulaire d'inscription.</p>
-    
-    
+    <div class="text-center m-5">
+    <h2>Voici les activités proposées:</h2>
+    <p> 
+        <ul class="list-unstyled">
+            <li class="text-center pe5">Jeux de société</li>
+            <li class="text-center pe5">Ateliers de théâtre</li>
+            <li class="text-center pe5">Etude de bandes-annonces de films</li>
+            <li class="text-center pe5">Lecture de livres pour enfants</li>
+            <li class="text-center pe5">Débats sur des sujets de société</li>
+            <li class="text-center pe5">Organisation de séjours (pour les élèves inscrits en spécialité Anglais Monde Contemporain)</li>
+        </ul>
+    </p>
+    </div>
     <div class="d-grid d-md-flex justify-content-center">
         <a class="btn btn-lg btn-outline-info mx-5 mb-3" href="inscription.html" role="button">Je m'inscris</a>
     </div>
 
-    <script src="assets/bootstrap.bundle.min.js"></script>
-</body>
 
+
+
+
+    <script src="assets/bootstrap.bundle.min.js"></script>
+
+</body>
 </html>
